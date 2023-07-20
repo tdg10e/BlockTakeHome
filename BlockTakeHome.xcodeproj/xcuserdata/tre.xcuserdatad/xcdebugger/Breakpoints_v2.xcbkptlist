@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0165A7F5-C686-461E-9757-0B5931DB5C94"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C89EB797-7198-4407-AE76-BA4A5CA2AD9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/AppCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "init(serviceManager:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C89EB797-7198-4407-AE76-BA4A5CA2AD9B - 4d265fc349b38e56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BlockTakeHome.AppCoordinator.init(serviceManager: BlockTakeHome.ServiceManager) -&gt; BlockTakeHome.AppCoordinator"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/AppCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "C89EB797-7198-4407-AE76-BA4A5CA2AD9B - 1f0abe09080f5c69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in BlockTakeHome.AppCoordinator.init(serviceManager: BlockTakeHome.ServiceManager) -&gt; BlockTakeHome.AppCoordinator"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/AppCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "C89EB797-7198-4407-AE76-BA4A5CA2AD9B - 4c15f2e0ae5a4254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BlockTakeHome.AppCoordinator.init(serviceManager: BlockTakeHome.ServiceManager) -&gt; BlockTakeHome.AppCoordinator"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/AppCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F6F8668-D0E3-46A0-A98C-CB130AECF1E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Views/Screens/EmployeeListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1F6F8668-D0E3-46A0-A98C-CB130AECF1E4 - a11919c1671b406a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt;&gt;)&gt; in BlockTakeHome.EmployeeListView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "1F6F8668-D0E3-46A0-A98C-CB130AECF1E4 - d3853712f9fff2ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt;&gt;)&gt; in BlockTakeHome.EmployeeListView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "980">
+               </Location>
+               <Location
+                  uuid = "1F6F8668-D0E3-46A0-A98C-CB130AECF1E4 - a11919c1671b4035"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt;&gt;)&gt; in BlockTakeHome.EmployeeListView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "1F6F8668-D0E3-46A0-A98C-CB130AECF1E4 - d8ec698d88f13394"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt;&gt;)&gt; in BlockTakeHome.EmployeeListView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "764">
+               </Location>
+               <Location
+                  uuid = "1F6F8668-D0E3-46A0-A98C-CB130AECF1E4 - 625e12c90f0a41c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt;&gt;)&gt; in BlockTakeHome.EmployeeListView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "1F6F8668-D0E3-46A0-A98C-CB130AECF1E4 - 625e12c90f0a41c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;BlockTakeHome.Employee&gt;, Swift.String, BlockTakeHome.EmployeeCard&gt;)&gt;&gt;)&gt; in BlockTakeHome.EmployeeListView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55DB58CD-07AD-4ABA-8462-439992312EA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Views/Screens/EmployeeListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init(navigator:serviceManager:employees:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "55DB58CD-07AD-4ABA-8462-439992312EA2 - 512b7327eb250516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.init(navigator: BlockTakeHome.ScreenNavigating, serviceManager: BlockTakeHome.ServiceManager, employees: Swift.Array&lt;BlockTakeHome.Employee&gt;) -&gt; BlockTakeHome.EmployeeListViewModel"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1052">
+               </Location>
+               <Location
+                  uuid = "55DB58CD-07AD-4ABA-8462-439992312EA2 - 512b7327eb250516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.init(navigator: BlockTakeHome.ScreenNavigating, serviceManager: BlockTakeHome.ServiceManager, employees: Swift.Array&lt;BlockTakeHome.Employee&gt;) -&gt; BlockTakeHome.EmployeeListViewModel"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1144">
+               </Location>
+               <Location
+                  uuid = "55DB58CD-07AD-4ABA-8462-439992312EA2 - 512b7327eb250516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.init(navigator: BlockTakeHome.ScreenNavigating, serviceManager: BlockTakeHome.ServiceManager, employees: Swift.Array&lt;BlockTakeHome.Employee&gt;) -&gt; BlockTakeHome.EmployeeListViewModel"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+               <Location
+                  uuid = "55DB58CD-07AD-4ABA-8462-439992312EA2 - 512b7327eb250516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.init(navigator: BlockTakeHome.ScreenNavigating, serviceManager: BlockTakeHome.ServiceManager, employees: Swift.Array&lt;BlockTakeHome.Employee&gt;) -&gt; BlockTakeHome.EmployeeListViewModel"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1124">
+               </Location>
+               <Location
+                  uuid = "55DB58CD-07AD-4ABA-8462-439992312EA2 - 512b7327eb2505c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.init(navigator: BlockTakeHome.ScreenNavigating, serviceManager: BlockTakeHome.ServiceManager, employees: Swift.Array&lt;BlockTakeHome.Employee&gt;) -&gt; BlockTakeHome.EmployeeListViewModel"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "816">
+               </Location>
+               <Location
+                  uuid = "55DB58CD-07AD-4ABA-8462-439992312EA2 - 512b7327eb2505ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.init(navigator: BlockTakeHome.ScreenNavigating, serviceManager: BlockTakeHome.ServiceManager, employees: Swift.Array&lt;BlockTakeHome.Employee&gt;) -&gt; BlockTakeHome.EmployeeListViewModel"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F195A796-60AF-4D0E-AA3B-28043FCEEE36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F195A796-60AF-4D0E-AA3B-28043FCEEE36 - 83f57c03e650d2b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.ContentView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "F195A796-60AF-4D0E-AA3B-28043FCEEE36 - 83f57c03e650d2b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.ContentView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD72E5FE-92F4-47EF-9E34-BBF00CADC414"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Views/Screens/EmployeeListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CD72E5FE-92F4-47EF-9E34-BBF00CADC414 - 25941af674841df8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;BlockTakeHome.Team&gt;, Swift.Array&lt;BlockTakeHome.EmployeeType&gt;) -&gt; () in implicit closure #1 () -&gt; BlockTakeHome.FilterViewModel in closure #2 () -&gt; BlockTakeHome.FilterView in BlockTakeHome.EmployeeListView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "CD72E5FE-92F4-47EF-9E34-BBF00CADC414 - a6b9ab34adcd3c79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;BlockTakeHome.Team&gt;, Swift.Array&lt;BlockTakeHome.EmployeeType&gt;) -&gt; () in closure #2 () -&gt; BlockTakeHome.FilterView in BlockTakeHome.EmployeeListView.body.getter : some"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAB8F1BA-CA4B-4F8F-8572-599471C07413"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Views/Screens/EmployeeListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "filterEmployees(byTeam:byType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EAB8F1BA-CA4B-4F8F-8572-599471C07413 - bea988f847eb6e79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.filterEmployees(byTeam: Swift.Array&lt;BlockTakeHome.Team&gt;, byType: Swift.Array&lt;BlockTakeHome.EmployeeType&gt;) -&gt; ()"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "EAB8F1BA-CA4B-4F8F-8572-599471C07413 - 103e9d567b435ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BlockTakeHome.Employee) -&gt; Swift.Bool in BlockTakeHome.EmployeeListViewModel.filterEmployees(byTeam: Swift.Array&lt;BlockTakeHome.Team&gt;, byType: Swift.Array&lt;BlockTakeHome.EmployeeType&gt;) -&gt; ()"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F38BE8D-8426-4520-9B6D-6B0A8AA38757"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Views/Screens/EmployeeListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "filterEmployees(byTeam:byType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F38BE8D-8426-4520-9B6D-6B0A8AA38757 - bea988f847eb6f12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.filterEmployees(byTeam: Swift.Array&lt;BlockTakeHome.Team&gt;, byType: Swift.Array&lt;BlockTakeHome.EmployeeType&gt;) -&gt; ()"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "2F38BE8D-8426-4520-9B6D-6B0A8AA38757 - bea988f847eb6f12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlockTakeHome.EmployeeListViewModel.filterEmployees(byTeam: Swift.Array&lt;BlockTakeHome.Team&gt;, byType: Swift.Array&lt;BlockTakeHome.EmployeeType&gt;) -&gt; ()"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Views/Screens/EmployeeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F796A1E4-7497-4CE7-9942-454B9CD5B70C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Views/Screens/EmployeeListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "filterEmployees(byTeam:byType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "343A5D52-D8ED-44E9-9F3A-58386E68E8ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Services/ServiceManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "fetchImage(with:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "549ECBC4-A057-46E6-91B6-9B755F7258A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Services/ServiceManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchEmployees()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "549ECBC4-A057-46E6-91B6-9B755F7258A5 - ab7444b5a68ccb0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BlockTakeHome.ServiceManager.fetchEmployees() async -&gt; ()"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Services/ServiceManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "549ECBC4-A057-46E6-91B6-9B755F7258A5 - ab7444b5a68ccb0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BlockTakeHome.ServiceManager.fetchEmployees() async -&gt; ()"
+                  moduleName = "BlockTakeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tre/BlockTakeHome/BlockTakeHome/Services/ServiceManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90D01B5F-438C-424A-94A1-39B9C1042F11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlockTakeHome/Views/Components/Particles/MultipleChoiceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "clearSelections()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

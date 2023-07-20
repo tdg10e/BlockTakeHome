@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var appCoordinator: AppCoordinator
+    @ObservedObject private var serviceManager: ServiceManager
+
+    init() {
+        let serviceManager = ServiceManager()
+        _appCoordinator = StateObject(wrappedValue: AppCoordinator(serviceManager: serviceManager))
+        _serviceManager = ObservedObject(wrappedValue: serviceManager)
+    }
+    
+    private var mainView: some View {
+        appCoordinator.currentScreen.makeView(appCoordinator: appCoordinator, serviceManager: serviceManager)
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        mainView
     }
 }
 
