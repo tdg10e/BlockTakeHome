@@ -22,6 +22,7 @@ enum SFSymbols: String {
     case checkmark = "checkmark"
 }
 
+//For custom images/icons we add to the asset library
 enum CustomIcons: String {
-    case play = "play"
+    case missingIcon = "missing"
 }

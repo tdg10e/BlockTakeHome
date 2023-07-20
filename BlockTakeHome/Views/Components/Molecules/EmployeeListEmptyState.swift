@@ -24,6 +24,8 @@ struct EmployeeListEmptyState: View {
     
     var body: some View {
         VStack {
+            IconImage(.custom(.missingIcon))
+                .frame(width: 76, height: 76)
             if let errorCode = viewModel.serviceManager.errorCode {
                 Text("There was an issue fetching the employee list. Try restarting the app. If the problem persists, please contact an admin. error code: \(errorCode.rawValue)")
                     .padding()
